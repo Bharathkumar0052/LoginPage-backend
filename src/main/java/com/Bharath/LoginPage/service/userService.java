@@ -1,10 +1,13 @@
 package com.Bharath.LoginPage.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.Bharath.LoginPage.entity.User;
 import com.Bharath.LoginPage.repository.userRepository;
 
+
+@Service
 public class userService {
     @Autowired
     private userRepository userRepo;
